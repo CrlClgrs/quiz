@@ -8,6 +8,10 @@ body {
   padding-top: 80px;
 }
 
+a {
+color: red;
+}
+
 #container {
   width: 90%;
   margin: 0 auto;
@@ -40,6 +44,15 @@ label {
   font-size: 14px;
 }
 
+.q1 {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  height: auto;
+  border-radius: 5px;
+  background-color: #abc;
+}
+
 input[type="radio"] {
   margin-right: 5px;
 }
@@ -70,6 +83,7 @@ input[type="radio"] {
   padding: 10px 20px;
   border-radius: 5px;
   z-index: 10;
+  text-align: center;
 }
 
 .link-item {
@@ -85,7 +99,7 @@ input[type="radio"] {
 .link-item a {
   display: block;
   text-decoration: none;
-  color: #333;
+  color: #889;
   font-weight: 500;
 }
 
