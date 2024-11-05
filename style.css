@@ -41,7 +41,7 @@ img {
 label {
   display: block;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 30px;
 }
 
 .q1 {
@@ -114,6 +114,6 @@ input[type="radio"] {
   }
 
   .link-item a {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
