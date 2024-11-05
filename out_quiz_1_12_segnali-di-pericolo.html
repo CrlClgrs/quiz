@@ -1,0 +1,720 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="counter">
+  Correct: <span id="correctCount">0</span> | Incorrect: <span id="incorrectCount">0</span>
+</div>
+
+</body>
+</html>
+
+
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/1c6f7e30871a.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è consentito il transito ai veicoli con il ''ruotino'' (ruota di soccorso)</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d60f3cc8479b.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è consentito impegnare il passaggio a livello se il traffico intenso impedisce di sgomberarlo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/aea1e13106b1.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è consentito sorpassare altri veicoli su una carreggiata a doppio senso di circolazione con due sole corsie</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/38f59b6fab47.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è consentito sorpassare i veicoli che rallentano per far attraversare i pedoni</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/ff57ff271998.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è consentito sorpassare i veicoli che si sono arrestati per far attraversare la carreggiata ai ciclisti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/c6422bc30252.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è consentito sostare o fermarsi in prossimità o in corrispondenza dei binari</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d52902cf20e6.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è necessario rallentare in caso di scarsa visibilità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6d2a6d7a7594.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è necessario rallentare se la cunetta presenta visibilità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/b23379fc76ee.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non è obbligatorio dare la precedenza ai pedoni che attraversano sulle strisce pedonali</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/cb6436747ee9.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato non si deve effettuare sosta o fermata sopra le strisce pedonali</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/c9f51847f204.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato occorre considerare il pericolo di sbandamento o di slittamento</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2ecc03af2cf9.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato occorre prestare particolare attenzione ai movimenti imprevedibili dei bambini</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/b9a0c61a105d.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato occorre prestare particolare attenzione per la possibile presenza di bambini</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/34f56843203e.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato occorre tenere presente che il tram necessita di una distanza di arresto maggiore di quella degli autoveicoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/4aa76fd4d637.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve circolare il più possibile vicino alla striscia bianca che separa i sensi di marcia</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/252318722598.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve circolare il più vicino possibile al margine destro della carreggiata, su strada a due sole corsie e a doppio senso di circolazione</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/1a68912dcc23.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve dare la precedenza solo ai pedoni che attraversano da sinistra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/ed3e427b58bc.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve fare attenzione a non tamponare i veicoli che si arrestano per dare la precedenza ai pedoni</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/78afe3ed1d2b.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve fare attenzione agli eventuali pedoni presenti alla fermata del tram</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/0938642f38c5.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve moderare la velocità per evitare di tamponare veicoli che procedono più lentamente</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f634f5684320.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve rallentare solo se vi sono bambini che attraversano sulle strisce pedonali</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/14c0a354d529.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve rallentare usando continuamente i freni per non danneggiare il cambio di velocità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/bcb52c7bc92e.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve suonare il clacson se vi sono ciclisti che stanno attraversando sulle strisce</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/35fbf8bc8d05.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve viaggiare ad andatura particolarmente moderata se si circola con il ''ruotino'' (ruota di soccorso)</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d4dc743ffeee.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si deve viaggiare ad andatura particolarmente moderata se si circola con il ruotino (ruota di soccorso)</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/56a8262857d8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si ha l'obbligo di dare la precedenza ai filobus</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/050aa12887c2.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si può circolare sui binari senza intralciare la marcia del tram</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/29cf48ffd230.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si può sorpassare a destra il tram fermo al centro della strada per la salita e discesa dei passeggeri, solo se esiste l'apposito salvagente</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/c79fda4b2c00.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato si può sorpassare a destra il tram in marcia se vi è lo spazio necessario</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/91a69a658ea8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato sono consentite la fermata ma non la sosta in prossimità o in corrispondenza dei binari</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6bc1faa5b629.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato sono vietate la sosta e la fermata sia sul tratto in salita che su quello in discesa</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/1487a9b40717.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, il conducente deve dare la precedenza ai pedoni che attraversano sulle strisce</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7ef7a273c70d.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, il conducente deve porre maggiore attenzione per non intralciare la marcia del tram</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/60f3cc8479b7.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, il conducente deve prestare maggiore attenzione, perché potrebbe incrociare un tram</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2401271e8bab.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, il tram fermo per la salita e la discesa dei passeggeri può essere sorpassato a destra quando non esiste il salvagente</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6a7b1d09be81.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, l'inserimento di una marcia bassa consente di sfruttare adeguatamente l'azione frenante del motore</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6a660caf340b.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, posto su strada a doppio senso di circolazione e con due sole corsie, si deve circolare il più possibile vicino al margine destro</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/5921df22b233.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, posto su strada a due corsie e a doppio senso di circolazione, è consentito sorpassare nelle ore diurne</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/8d0775a0bf88.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, posto su strade a due corsie e a doppio senso, è consentito sorpassare un veicolo molto lento</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/3feece955493.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, qualora non si dia la precedenza ai pedoni che attraversano sulle apposite strisce, si incorre nella sottrazione di punti della patente</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f698cf0118a8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, se il veicolo si ferma per avaria sui binari, il conducente deve adottare ogni iniziativa utile al fine di evitare incidenti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/16a8db6ea831.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, su strada a senso unico di circolazione si deve marciare il più possibile vicino al margine destro della carreggiata</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2333e29bf117.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale raffigurato, su una strada a doppio senso di circolazione con due sole corsie, si deve circolare il più possibile vicino al margine destro</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/603eb450fcd8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">In presenza del segnale se il conducente o gli eventuali passeggeri non rispettano il divieto di gettare sigarette accese dal finestrino, può verificarsi un incendio</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/9192cafd3259.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">La figura rappresenta un divieto di svolta a sinistra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f1359795534a.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">La figura rappresenta un segnale di obbligo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2adf03c03c20.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">La figura rappresenta un segnale di pericolo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/853ed59c7796.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">La figura rappresenta un segnale di pericolo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/eeeef4e395a0.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">La figura rappresenta un segnale di pericolo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/e1408d5c93e8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">La figura rappresenta un segnale di pericolo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+</body>
+</html>

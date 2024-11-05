@@ -1,0 +1,545 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="counter">
+  Correct: <span id="correctCount">0</span> | Incorrect: <span id="incorrectCount">0</span>
+</div>
+
+</body>
+</html>
+
+
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag entra in funzione in caso di incidente stradale con urto violento</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag non può essere montato su vetture con meno di 4 porte</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag non va usato insieme alle cinture di sicurezza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag può essere pericoloso se si attiva mentre non si indossa la cintura di sicurezza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag può essere talvolta disattivabile</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag serve a limitare i danni agli occupanti del veicolo per urti contro superfici interne del veicolo in caso di urto violento a seguito di incidente</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag si gonfia automaticamente grazie al comando di un sensore</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag si gonfia in pochi millisecondi</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag si gonfia in pochi secondi</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’airbag si gonfia premendo un pulsante posto sul cruscotto</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’arrotolatore delle cinture di sicurezza può essere disattivato o modificato dal conducente, se crea fastidio al passeggero</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’obbligo dell’uso del casco non riguarda i maggiorenni con più di tre anni di esperienza di guida</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’uso del casco durante la marcia diventa facoltativo quando la temperatura dell’aria è superiore ai trenta gradi</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’uso del casco è necessario per ridurre gli effetti di eventuali urti alla testa</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’uso del casco è obbligatorio su qualunque quadriciclo a motore</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">L’uso delle cinture di sicurezza consente il trasporto di bambini sui sedili anteriori in braccio a un adulto, senza pericoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Nei veicoli che non sono muniti del comando per disabilitare l'airbag dal lato passeggero, il seggiolino per bambini non deve essere sistemato sul sedile anteriore, con lo schienale rivolto verso la strada</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Nei veicoli dotati di airbag con comando di disabilitazione, prima di sistemare sul sedile anteriore un seggiolino per bambini (schienale rivolto verso il parabrezza), bisogna disattivare l'airbag</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Non è obbligatorio l’uso delle cinture di sicurezza su una autovettura da parte di persone anziane (età superiore ai 70 anni)</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Non è obbligatorio l’uso delle cinture di sicurezza sui veicoli muniti di air-bag</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Non è obbligatorio utilizzare le cinture di sicurezza su una autovettura quando si circola ad una velocità inferiore ai 30 km/h</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Non è obbligatorio utilizzare le cinture di sicurezza su una autovettura quando si effettuano tragitti di lunghezza inferiore a un chilometro all’interno dei centri abitati</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Non è obbligatorio, ma è consigliato, indossare le cinture di sicurezza se si occupano i posti posteriori di una autovettura</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Non esistono guanti ad uso motociclistico di tipo omologato</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Non esistono specifici stivali ad uso motociclistico, pertanto è bene utilizzare calzature robuste del tipo utilizzato per caccia, pesca o alpinismo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Quando si circola a bordo di un motociclo, è opportuno indossare gli specifici guanti anche d’estate</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Quando si circola nelle zone a velocità controllata inferiore a 30 km/h, non è obbligatorio l’uso del casco</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Se il veicolo è dotato di airbag frontali e laterali, si può fare a meno di allacciare la cintura di sicurezza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Se non si allaccia la cintura di sicurezza, in caso d'improvvisa frenata si può essere proiettati contro il parabrezza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Se si guida un motociclo senza guanti si può intervenire più rapidamente sui comandi</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Se un veicolo è dotato di air-bag, non vi è l’obbligo di indossare le cinture di sicurezza durante la marcia</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Se un’autovettura è munita di airbag, è possibile trasportare bambini sul sedile anteriore assicurati ad idoneo seggiolino solo se il veicolo è dotato di comando per disattivare l’airbag stesso</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Si possono utilizzare le cinture di sicurezza al posto dei sistemi di ritenuta per trasportare un bambino, purché sia di altezza superiore a 1,30 metri</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Sono previste sanzioni per chi, pur facendo uso della cintura di sicurezza, ne alteri o ostacoli il normale funzionamento</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">Sul casco possono essere applicati adesivi di qualunque tipo, purché non coprano la visiera</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+</body>
+</html>

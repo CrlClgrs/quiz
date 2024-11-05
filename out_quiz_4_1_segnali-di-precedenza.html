@@ -1,0 +1,720 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="counter">
+  Correct: <span id="correctCount">0</span> | Incorrect: <span id="incorrectCount">0</span>
+</div>
+
+</body>
+</html>
+
+
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2d205272e6ed.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica che la strada non gode più del diritto di precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/baff879f8242.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica che si ha la precedenza fino all'uscita del centro abitato</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/8d333977b808.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica che termina una strada con diritto di precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/64a8c2997c72.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica fine del limite di velocità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/91dcb3ba00b9.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica il ripristino della norma generale sulla precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/35bc6f9f9abc.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica l'andamento della strada principale</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/a67da641126d.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica l'inizio di una strada in cui i veicoli hanno diritto di precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d930e1fc0f37.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la distanza dall'incrocio in cui dobbiamo dare precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f2f916dbe754.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la distanza dall'incrocio in cui dovremo obbligatoriamente fermarci</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f748423c8210.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del diritto di precedenza anche sulle strade urbane</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6dbe754e8477.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di tutti i divieti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/84cba105cd1c.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di un'autostrada</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/802b2752058f.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di una strada a doppio senso di circolazione</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/e7e77f80f6a4.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di una strada a senso unico</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6ade9fc796bc.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica una piazzola di sosta a destra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/67da641126d3.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato invita a maggiore prudenza perché non si ha più diritto di precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/720277accc6c.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato invita a rallentare perché è prossimo un incrocio in cui bisogna fermarsi e dare la precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7fd811641ac6.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato invita ad usare la massima prudenza al fine di evitare incidenti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/21feb0248c3e.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato invita ad usare prudenza perché altri veicoli potrebbero immettersi nel flusso della circolazione</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/80f895da8f79.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato lungo le autostrade viene posto a distanza di 150 metri dall'area di servizio</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7594f8dc8acc.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato modifica le precedenti norme sulla precedenza agli incroci</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/af8c2f0b8b4a.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato non si trova sul tratto di strada con diritto di precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/54e92d8e09a8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga a dare la precedenza ai veicoli provenienti dal senso contrario</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/357086b30c77.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga a dare la precedenza, negli incroci, ai veicoli provenienti sia da destra che da sinistra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/3472933c6831.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga a dare precedenza ai veicoli che circolano sulla strada su cui ci si immette</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/5faa18eb69cf.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga a dare precedenza ai veicoli provenienti sia da destra che da sinistra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/b946ab6ecaa0.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga a fermarsi in corrispondenza della striscia trasversale di arresto e a dare la precedenza agli altri veicoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/8d849fbd4dc6.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga a fermarsi prima di impegnare l'incrocio</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/386288b0b533.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga ad arrestarsi al varco doganale</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/a9cb4e677f3c.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga ad arrestarsi all'incrocio</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d3f81f8b19d1.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga ad arrestarsi all'incrocio</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7faee21f6912.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga ad arrestarsi all'incrocio e a dare la precedenza a destra e a sinistra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/493c9b3b37af.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga ad arrestarsi per dare la precedenza solo ai veicoli provenienti da destra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/aac65dce00f8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga ad arrestarsi solo se sopraggiungono altri veicoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/feb0248c3e59.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga ad arrestarsi soltanto in caso di incrocio con altri veicoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/c9961d11b3c6.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato obbliga solo a rallentare e, se necessario, a dare la precedenza all'incrocio a 320 metri</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/664e9126fc3c.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato perde la sua efficacia in presenza di agente che regola il traffico</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/47f6028fb191.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che bisogna dare la precedenza ai veicoli provenienti di fronte</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2ecf19704749.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che bisogna rallentare per accertare che ci venga data la precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/87e3c43d8d92.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che la circolazione è ammessa nei giorni pari in un senso e nei giorni dispari nell'altro</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/4737c620941f.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che la circolazione non può svolgersi contemporaneamente nei due sensi</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/1aeeebddc207.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che non si ha diritto di precedenza nella confluenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/df80f895da8f.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che si incrocia a destra una strada di minore importanza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/c42b72c64929.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che si incrocia sulla sinistra una strada di minore importanza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d8687ffff89d.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia che si sta percorrendo una strada con diritto di precedenza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/970474937511.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia corsie di accelerazione a destra e a sinistra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/a60e62742039.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia di arrestarsi al prossimo incrocio e dare la precedenza a destra ed a sinistra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2e6327db18cd.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia di arrestarsi all'incrocio anche se il semaforo emette luce verde</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/0bdb40b3598b.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia di arrestarsi prima di impegnare l'incrocio</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7dde7c7859cc.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato preannuncia di dare precedenza ai veicoli provenienti da destra</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+</body>
+</html>

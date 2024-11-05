@@ -1,0 +1,770 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="counter">
+  Correct: <span id="correctCount">0</span> | Incorrect: <span id="incorrectCount">0</span>
+</div>
+
+</body>
+</html>
+
+
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente sia alla guida in stato di ebbrezza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente trasporta un passeggero in stato di ebbrezza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente, obbligato a sostenere un esame di revisione, non vi si è sottoposto nei termini prescritti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, quando si accerti che il conducente guida con patente la cui validità è scaduta</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, se a seguito di incidente, sono derivate lesioni a persone</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, se il conducente non sistema correttamente il carico mal disposto, dopo invito degli organi di polizia</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, se si circola con pneumatici di dimensioni diverse da quelle riportate sulla carta di circolazione</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La patente di guida viene immediatamente ritirata, durante la circolazione, tutte le volte che il conducente commette una violazione che comporta una decurtazione di punti dalla patente</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La perdita di punti sulla patente per infrazione al codice della strada è raddoppiata se effettuata alla guida di autovettura di potenza superiore a 115 kW</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La perdita di punti sulla patente per infrazione al codice della strada è raddoppiata se effettuata alla guida di motociclo di potenza superiore a 35 kW</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida è disposta a seguito di azzeramento dei “punti” della patente di guida</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida è disposta quando si accerti che il conducente è alla guida senza aver con sé la patente</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta a seguito di guida in stato di ebbrezza o sotto l’effetto di sostanze stupefacenti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta a seguito di incidente stradale che ha procurato lesioni gravi a persone</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta con l’obbligo di sottoporsi a visita medica e/o ad esame di idoneità tecnica</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta dall’Ufficio Motorizzazione civile o dal Prefetto</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta qualora sorgano dubbi che il conducente sia ancora in possesso dell’idoneità tecnica alla guida</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta quando il titolare circola con la revisione del veicolo scaduta da oltre un anno</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta quando il titolare circola su un veicolo che non è di sua proprietà e non ha un’autorizzazione scritta del proprietario</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta quando il titolare circola su un’auto storica senza la prescritta documentazione</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta quando il titolare incorre, per due volte in un anno, in una infrazione che comporta la perdita di almeno 5 punti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta quando il titolare non è più in possesso dei requisiti morali richiesti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta quando il titolare perde permanentemente (per sempre) i requisiti fisici richiesti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revisione della patente di guida può essere disposta quando sorgono dubbi che il conducente sia ancora in possesso dei requisiti fisici e psichici prescritti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente è disposta quando il conducente guida con patente scaduta di validità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente è disposta quando il conducente perde temporaneamente i requisiti fisici</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente è disposta quando il titolare guida nonostante abbia la patente sospesa</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente è disposta quando il titolare perde permanentemente (per sempre) i requisiti fisici richiesti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente è disposta quando il titolare perde permanentemente (per sempre) i requisiti psichici richiesti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente è disposta quando il titolare, sottoposto ad esame di revisione, non risulti più idoneo alla guida</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente è disposta quando la patente stessa viene sostituita con altra rilasciata da uno stato estero</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente può essere disposta dagli organi di polizia</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente può essere disposta quando il conducente guida senza averla con sè</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente può essere disposta quando il conducente guida senza lenti correttive quando prescritte</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente può essere disposta quando il conducente guida un veicolo intestato ad altra persona senza avere apposita dichiarazione scritta</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La revoca della patente può essere disposta quando il conducente, in autostrada, inverte il senso di marcia o percorre la carreggiata contro mano</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta contestualmente alla comunicazione di azzeramento dei punti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il conducente circola abusivamente con veicolo sottoposto a sequestro</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il conducente circola con patente sospesa</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il conducente fugge senza prestare soccorso alla persona investita</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il conducente guida in stato di ebbrezza alcolica</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il conducente guida sotto l’effetto di sostanze stupefacenti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il conducente rifiuta di sottoporsi agli accertamenti sul suo eventuale stato di ebbrezza alcolica</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il titolare della patente perde definitivamente i requisiti fisici</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando il titolare non è più in possesso dei requisiti morali</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando non si è pagato nei termini il bollo dell’auto</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando si circola con patente illeggibile o deteriorata</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando si lascia il veicolo in sosta negli spazi destinati ai disabili</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando si superano di oltre 40 km/h i limiti massimi di velocità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<div class="md:col-span-2">
+</div>
+<div class="p-2 m-2 text-left text md:col-span-4">La sospensione della patente è disposta quando sorgono dubbi sulla persistenza dei requisiti prescritti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,720 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="counter">
+  Correct: <span id="correctCount">0</span> | Incorrect: <span id="incorrectCount">0</span>
+</div>
+
+</body>
+</html>
+
+
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f2377093763e.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la distanza massima da mantenere esclusivamente nei tratti di strada dove il sorpasso è vietato</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/297f05c65eaa.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la distanza minima di sicurezza tra due autoveicoli in transito su quella strada</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/caa0afa2852d.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di segnalazioni acustiche</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/a9ee26a2c88a.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di sorpasso per autobus di massa a pieno carico superiore a 3,5 tonnellate</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6fe66a69e5b7.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di sorpasso per veicoli merci di massa a pieno carico superiore a 3,5 tonnellate</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/bb13623736d8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di sorpasso precedentemente imposto</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/4c87b5dbd438.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di sorpasso precedentemente imposto</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/181959d6a9ee.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di sorpasso tra le sole autovetture</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/fa4c981556ac.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di sosta in seconda fila</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d492bcc08ff1.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di sosta su entrambi i lati della strada</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/9c39e800a222.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del divieto di transito per tutti gli autoveicoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7307781c5ef7.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del limite massimo di velocità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/8090628e7da2.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del limite massimo di velocità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/968c075e4eca.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del limite minimo di velocità</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/0c9011129d0e.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del pericolo precedentemente segnalato</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/9c9d7670e125.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine del relativo divieto</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/e453604bfa4c.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine dell'obbligo di mantenere una distanza di sicurezza di almeno 50 metri</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2c4c90ba1a44.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine delle prescrizioni precedentemente imposte</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/9112a46e9c12.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di divieti precedentemente imposti</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/02d5b5c404ee.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di un cantiere di lavoro</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6a2c88a065e8.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di un centro abitato</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6f27c35160b1.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la fine di una prescrizione</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2ce04b8e4920.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la larghezza di una strettoia</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/927ef8830968.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la larghezza massima dei veicoli ammessi al transito</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/6f876e21a468.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la lunghezza massima del cavo di traino</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/07754029a466.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la presenza di macchine sgombraneve al lavoro sulla strada</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d3dcc4900f35.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la presenza di una corsia riservata a biciclette e ciclomotori</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/2239ae04d8ad.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la sosta libera, ma con divieto di fermata</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/d57e21d43876.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la velocità consigliata</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f3022478b068.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la velocità consigliata</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/f48225bbfcd2.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la velocità massima alla quale i veicoli possono procedere</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/fcf6a3c78680.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica la zona per l'accesso dei veicoli alle proprietà laterali</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/517b96d0bd82.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica lo sbocco di un passo carrabile</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/3a4493f714bc.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica presenza di un deposito con probabile uscita di mezzi per pulizia meccanica delle strade</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/1761d6393618.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un divieto di sosta per autotreni e autoarticolati</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/702116f8d4c9.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un itinerario obbligatorio per gli autoveicoli delle categorie rappresentate in figura</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/c49b4c92caa0.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un limite di velocità valido dalle ore 8.00 alle ore 20.00</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/1127dc7c79b7.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un limite di velocità valido solo per autoveicoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/45e9738f8158.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un parcheggio autorizzato</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/c149066ff099.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un parcheggio per le biciclette</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/502a64efb588.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un passaggio alto 3,50 metri</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/1713095abd49.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area attrezzata ed organizzata per sostare a tempo indeterminato, salvo diversa indicazione</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/fec5469fa893.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con la prescrizione di lasciare la chiave nel quadro</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/bd492bcc08ff.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con pannello che indica le categorie di veicoli esclusi</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/09685788e74f.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che indica l'orario e le tariffe</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7a26b8c00d0d.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che indica la superficie disponibile</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Falso')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Falso</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/dcbd8502e015.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che indica le categorie cui la stessa è riservata</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/7f5ab1d3ab88.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che ne indica la distanza</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/0e19c97712c5.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che ne indica la limitazione nel tempo</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+<div class="col">
+<img class="mx-auto my-3 h-24 md:col-span-2" id="immagine" src="https://www.quizpatente.it/images/patenteB/cad4241da529.jpg"/>
+<div class="p-2 m-2 text-left text md:col-span-4">Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello indicante la disposizione dei veicoli</div>
+<div class="my-2 text-center md:col-span-2 md:my-auto">
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Vero"/>Vero
+</label>
+<label>
+<input name="q1" onclick="showAnswer(this, 'Vero')" type="radio" value="Falso"/>Falso
+  </label>
+<div class="ans">Vero</div>
+</div>
+</div>
+
+</body>
+</html>
